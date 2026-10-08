@@ -17,8 +17,8 @@ The theme is tuned for building science and sustainable built-environment resear
 - Laboratory white and soft green surfaces for clean academic presentation.
 - Photovoltaic amber accents for energy, IEQ, and sustainable building references.
 - Scientific vocabulary highlights Future Ecologies Group, biophilic design, nature-based design, adaptive buildings, IAQ, IEQ, nZEB, CFD airflow, daylight, thermal comfort, IoT sensing, and building performance simulation.
-- The page structure follows a doctoral researcher pattern inspired by Rui Li's concise academic homepage and Beautiful Jekyll footer convention.
-- Final sections include: profile hero, about, research interests, news/updates, lecturer experience and courses, simulation and technical skills, selected publications, research projects, and contact links.
+- The page structure follows a doctoral researcher pattern inspired by Rui Li's concise academic homepage, Beautiful Jekyll footer convention, and Ashfaque Khowaja's quick-profile/highlights portfolio flow.
+- Final sections include: profile hero, quick stats, latest highlights, about, research interests, news/updates, lecturer experience and courses, simulation and technical skills, selected publications, research projects, and contact links.
 
 ## Verified Public Sources Used
 
