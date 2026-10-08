@@ -1,13 +1,14 @@
 # Umaru Mohammed Personal Website
 
-Static GitHub Pages-ready doctoral researcher portfolio for `Umaru-Mhd`, inspired by Rui Li's concise Beautiful Jekyll academic homepage style.
+Static GitHub Pages-ready doctoral researcher portfolio for `Umaru-Mhd`, inspired by Ashfaque Khowaja's profile-led academic portfolio structure and the clean Beautiful Jekyll academic style.
 
 ## Files
 
 - `index.html` - page structure and academic content
 - `styles.css` - responsive Beautiful Jekyll-inspired visual design
-- `script.js` - mobile navigation and automatic footer year
+- `script.js` - mobile navigation, light/dark theme toggle, and automatic footer year
 - `assets/profile-umaru.png` - profile photo sourced from the public Future Ecologies Group member page
+- `assets/gallery/` - prepared folder for future conference, seminar, workshop, fieldwork, and teaching photos
 
 ## Visual Direction
 
@@ -17,8 +18,9 @@ The theme is tuned for building science and sustainable built-environment resear
 - Laboratory white and soft green surfaces for clean academic presentation.
 - Photovoltaic amber accents for energy, IEQ, and sustainable building references.
 - Scientific vocabulary highlights Future Ecologies Group, biophilic design, nature-based design, adaptive buildings, IAQ, IEQ, nZEB, CFD airflow, daylight, thermal comfort, IoT sensing, and building performance simulation.
-- The page structure follows a doctoral researcher pattern inspired by Rui Li's concise academic homepage, Beautiful Jekyll footer convention, and Ashfaque Khowaja's quick-profile/highlights portfolio flow.
-- Final sections include: profile hero, quick stats, latest highlights, about, research interests, news/updates, lecturer experience and courses, simulation and technical skills, selected publications, research projects, and contact links.
+- The page structure follows a doctoral researcher pattern inspired by Ashfaque Khowaja's portfolio flow, Rui Li's concise academic homepage, and the Beautiful Jekyll footer convention.
+- Final sections include: profile hero, quick stats, latest updates, about, research interests, academic resume, lecturer experience and courses, simulation and technical skills, selected publications, research projects, gallery placeholders, news/updates, and contact links.
+- The Gallery section is ready for real event photos and captions without redesigning the page.
 
 ## Verified Public Sources Used
 
@@ -57,4 +59,5 @@ Steps:
 - Replace the public contact placeholder in `index.html` with the preferred academic email.
 - Replace the teaching placeholders with official course titles, course codes, semesters, and representative project images.
 - Add exact software names and proficiency levels once confirmed publicly.
-- Add future conference and seminar photos by duplicating a `.timeline-item` block in the News section.
+- Add future conference and seminar photos to `assets/gallery/`, then replace a `.gallery-placeholder` block in `index.html` with an image tag and updated caption.
+- Add new announcements by duplicating a `.timeline-item` block in the News section.
