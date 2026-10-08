@@ -10,6 +10,8 @@
   --link-hover: #173f37;
   --accent: #b27a2c;
   --accent-soft: #f2e6d2;
+  --data: #315f9d;
+  --data-soft: #e8eef8;
   --rule: #d5e0da;
   --shadow: 0 24px 60px rgba(31, 74, 64, 0.14);
   --max-width: 1120px;
@@ -27,6 +29,8 @@
   --link-hover: #c7f1e5;
   --accent: #e3b76d;
   --accent-soft: #3f3322;
+  --data: #93b9f2;
+  --data-soft: #203047;
   --rule: #334943;
   --shadow: 0 24px 60px rgba(0, 0, 0, 0.34);
 }
@@ -43,8 +47,11 @@ body {
   margin: 0;
   color: var(--text);
   background:
+    linear-gradient(90deg, rgba(36, 95, 83, 0.055) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(36, 95, 83, 0.045) 1px, transparent 1px),
     radial-gradient(circle at top left, rgba(62, 126, 106, 0.14), transparent 34rem),
     linear-gradient(180deg, var(--bg) 0, var(--surface) 32rem);
+  background-size: 72px 72px, 72px 72px, auto, auto;
   font-family: Inter, "Helvetica Neue", Arial, sans-serif;
   font-size: 17px;
   line-height: 1.72;
@@ -409,6 +416,7 @@ h4 {
 .resume-grid,
 .skills-grid,
 .project-list,
+.conference-grid,
 .gallery-grid,
 .contact-grid,
 .course-grid {
@@ -424,6 +432,7 @@ h4 {
 .resume-card,
 .skills-grid article,
 .project-list article,
+.conference-card,
 .gallery-card,
 .contact-grid li,
 .course-grid article,
@@ -504,6 +513,51 @@ h4 {
 .skills-grid p,
 .course-grid p {
   color: var(--muted);
+}
+
+.scholar-panel {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 34px;
+  align-items: center;
+  border-top: 1px solid var(--rule);
+}
+
+.scholar-panel .button {
+  margin-top: 8px;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.metric-grid article {
+  min-height: 132px;
+  display: grid;
+  align-content: center;
+  gap: 8px;
+  padding: 18px;
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  background:
+    linear-gradient(145deg, rgba(49, 95, 157, 0.12), transparent),
+    var(--surface);
+  box-shadow: 0 14px 34px rgba(31, 74, 64, 0.06);
+}
+
+.metric-grid strong {
+  color: var(--heading);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.metric-grid span {
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 800;
 }
 
 .resume-grid {
@@ -595,6 +649,43 @@ h4 {
 
 .project-list article {
   padding: 24px;
+}
+
+.conference-grid {
+  grid-template-columns: 1fr;
+  margin-top: 22px;
+}
+
+.conference-card {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 24px;
+  align-items: stretch;
+  padding: 0;
+  overflow: hidden;
+}
+
+.conference-card > div:last-child {
+  padding: 24px 24px 24px 0;
+}
+
+.conference-card a {
+  font-weight: 800;
+}
+
+.event-photo-slot {
+  min-height: 230px;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    linear-gradient(145deg, rgba(36, 95, 83, 0.72), rgba(49, 95, 157, 0.52)),
+    var(--surface-soft);
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.16rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 .gallery-grid {
@@ -738,6 +829,7 @@ h4 {
   }
 
   .interest-grid,
+  .metric-grid,
   .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -745,13 +837,23 @@ h4 {
   .highlight-grid,
   .skills-grid,
   .project-list,
+  .conference-grid,
   .course-grid {
     grid-template-columns: 1fr;
   }
 
   .split-grid,
+  .scholar-panel,
   .contact-section {
     grid-template-columns: 1fr;
+  }
+
+  .conference-card {
+    grid-template-columns: 1fr;
+  }
+
+  .conference-card > div:last-child {
+    padding: 22px;
   }
 }
 
@@ -809,6 +911,7 @@ h4 {
   .hero-stats,
   .resume-grid,
   .interest-grid,
+  .metric-grid,
   .gallery-grid,
   .contact-grid {
     grid-template-columns: 1fr;

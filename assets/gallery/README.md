@@ -4,16 +4,18 @@ Add future conference, seminar, workshop, fieldwork, laboratory, and teaching ph
 
 Recommended naming pattern:
 
-- `conference-2026-01.jpg`
+- `buildsys-2025.jpg`
+- `cesbp-2025.jpg`
+- `caadria-2026.jpg`
+- `teaching-lab.jpg`
 - `seminar-2026-01.jpg`
 - `workshop-2026-01.jpg`
-- `fieldwork-2026-01.jpg`
 
 To show a real photo on the website, replace one placeholder in `index.html` with:
 
 ```html
 <figure class="gallery-card">
-  <img src="assets/gallery/conference-2026-01.jpg" alt="Umaru Mohammed presenting research at a conference">
-  <figcaption>Conference title, location, and date.</figcaption>
+  <img src="assets/gallery/buildsys-2025.jpg" alt="Umaru Mohammed at BUILDSYS 2025">
+  <figcaption>BUILDSYS 2025, Golden, Colorado, USA.</figcaption>
 </figure>
 ```
