@@ -19,7 +19,7 @@ The theme is tuned for building science and sustainable built-environment resear
 - Photovoltaic amber accents for energy, IEQ, and sustainable building references.
 - Scientific vocabulary highlights Future Ecologies Group, biophilic design, nature-based design, adaptive buildings, IAQ, IEQ, nZEB, CFD airflow, daylight, thermal comfort, IoT sensing, and building performance simulation.
 - The page structure follows a doctoral researcher pattern inspired by Ashfaque Khowaja's portfolio flow, Rui Li's concise academic homepage, and the Beautiful Jekyll footer convention.
-- Final sections include: profile hero, Google Scholar metrics, latest updates, about, research interests, academic resume, lecturer experience and courses, simulation and technical skills, selected publications, research projects, verified conference outputs, gallery placeholders, news/updates, and contact links.
+- Final sections include: profile hero, quick stats, latest updates, about, research interests, academic resume, lecturer experience and courses, simulation and technical skills, selected publications, conference papers, research projects, gallery placeholders, news/updates, and contact links.
 - The Gallery section is ready for real event photos and captions without redesigning the page.
 
 ## Verified Public Sources Used
@@ -28,10 +28,13 @@ The theme is tuned for building science and sustainable built-environment resear
 - Future Ecologies Group: `https://future-ecologies.group/`
 - Future Ecologies Group member profile confirms `Umaru Mohammed`, `PhD SUSTech`, and `Biophilic Design & Adaptive Design`, and links ORCID, ResearchGate, Google Scholar, and LinkedIn.
 - ORCID public record confirms lecturer experience in the Department of Building Engineering at Imam Abdulrahman Bin Faisal University, plus Scopus Author ID `57301083800` and SciProfiles `1025045`.
-- Google Scholar public profile confirms SUSTech affiliation, the research labels `Energy diagnostic and Performance of Buildings`, `nZEB`, and `Biophilic and sustainable building design`, plus a checked snapshot of 93 citations, h-index 4, and i10-index 3.
-- Crossref metadata confirms BUILDSYS 2025 PhD Forum publication details for `10.1145/3736425.3772193`.
-- Crossref metadata confirms CESBP 2025 details for `10.1007/978-3-032-14019-7_3`.
-- Future Ecologies publications page confirms the 2026 CAADRIA ecological facade paper co-authored with Umaru Mohammed Bongwirnso.
+- Google Scholar public profile was used to refresh the paper and conference-paper list.
+- Public DOI/Crossref metadata was used for DOI-linked publications and proceedings.
+- Publicly visible ResearchGate-indexed records were used for the double-skin facade book/publication and 2025 operational cooling paper; the ResearchGate profile itself may require login or access verification.
+- ESTCON 2026 / International Conference on Sustainable Living public programme was used for the Malaysia conference update, technical-session chair role, and IoT-enabled biophilic control strategies paper.
+- ASim 2026 public website was used for the upcoming Singapore conference dates.
+- GDI 2026 public website was used for the upcoming online conference dates.
+- The University of Malaya visit is included as an editable update space because a public LinkedIn post could not be verified from the accessible public web.
 - LinkedIn public URL from Future Ecologies member page: `https://www.linkedin.com/in/umarumohammed/`
 - ORCID: `https://orcid.org/0000-0002-1492-6336`
 - Scopus Author ID: `57301083800`
