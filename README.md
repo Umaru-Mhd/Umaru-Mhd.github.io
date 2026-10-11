@@ -19,7 +19,7 @@ The theme is tuned for building science and sustainable built-environment resear
 - Photovoltaic amber accents for energy, IEQ, and sustainable building references.
 - Scientific vocabulary highlights Future Ecologies Group, biophilic design, nature-based design, adaptive buildings, IAQ, IEQ, nZEB, CFD airflow, daylight, thermal comfort, IoT sensing, and building performance simulation.
 - The page structure follows a doctoral researcher pattern inspired by Ashfaque Khowaja's portfolio flow, Rui Li's concise academic homepage, and the Beautiful Jekyll footer convention.
-- Final sections include: profile hero, quick stats, latest updates, about, research interests, academic resume, lecturer experience and courses, simulation and technical skills, selected publications, conference papers, research projects, gallery placeholders, news/updates, and contact links.
+- Final sections include: profile hero, quick stats, latest updates, about, research interests, lecturer experience, courses taught, simulation and technical skills, selected publications, conference papers, research projects, gallery placeholders, news/updates, and contact links.
 - The Gallery section is ready for real event photos and captions without redesigning the page.
 
 ## Verified Public Sources Used
@@ -28,9 +28,10 @@ The theme is tuned for building science and sustainable built-environment resear
 - Future Ecologies Group: `https://future-ecologies.group/`
 - Future Ecologies Group member profile confirms `Umaru Mohammed`, `PhD SUSTech`, and `Biophilic Design & Adaptive Design`, and links ORCID, ResearchGate, Google Scholar, and LinkedIn.
 - ORCID public record confirms lecturer experience in the Department of Building Engineering at Imam Abdulrahman Bin Faisal University, plus Scopus Author ID `57301083800` and SciProfiles `1025045`.
-- Google Scholar public profile was used to refresh the paper and conference-paper list.
-- Public DOI/Crossref metadata was used for DOI-linked publications and proceedings.
+- Google Scholar public profile was used to refresh the paper and conference-paper list; when Scholar was rate-limited, DOI/Crossref metadata was used to verify and deduplicate recent outputs by DOI/title.
+- Public DOI/Crossref metadata was used for DOI-linked publications and proceedings, including the CAADRIA 2026 DOI and the CESBP proceedings publication year.
 - Publicly visible ResearchGate-indexed records were used for the double-skin facade book/publication and 2025 operational cooling paper; the ResearchGate profile itself may require login or access verification.
+- Scopus Author ID `57301083800` is retained as a public profile link; direct Scopus metadata export was not available in this local environment without Elsevier/pybliometrics credentials.
 - ESTCON 2026 / International Conference on Sustainable Living public programme was used for the Malaysia conference update, technical-session chair role, and IoT-enabled biophilic control strategies paper.
 - ASim 2026 public website was used for the upcoming Singapore conference dates.
 - GDI 2026 public website was used for the upcoming online conference dates.
