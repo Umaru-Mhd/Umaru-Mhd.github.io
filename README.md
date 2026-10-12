@@ -14,7 +14,7 @@ The theme is tuned for a concise academic profile:
 
 - Simple white background, compact top navigation, serif academic headings, and a narrow reading column.
 - Profile photo is shown prominently but modestly, similar to an academic personal page rather than a portfolio landing page.
-- Sections are intentionally brief: short biography, research interests, journal articles, conference papers, academic journey, lectured experience, methods, and links.
+- Sections are intentionally brief: short biography, research interests, journal articles, conference papers, academic journey, upcoming conferences, and icon-based profile links.
 - The footer preserves the requested `Powered by Beautiful Jekyll` text.
 
 ## Verified Public Sources Used
@@ -30,6 +30,7 @@ The theme is tuned for a concise academic profile:
 - ESTCON 2026 / International Conference on Sustainable Living public programme was used for the Malaysia conference update and IoT-enabled biophilic control strategies paper.
 - ASim 2026 public website was used for the upcoming Singapore conference dates.
 - GDI 2026 public website was used for the upcoming online conference dates.
+- Public LinkedIn search snippets were used conservatively for visible journey details, including SUSTech location/current profile, SUSTech education from 2024-present, IFC EDGE certification, and University of Dammam recognition.
 - LinkedIn public URL from Future Ecologies member page: `https://www.linkedin.com/in/umarumohammed/`
 - ORCID: `https://orcid.org/0000-0002-1492-6336`
 - Scopus Author ID: `57301083800`
@@ -59,6 +60,5 @@ Steps:
 ## Personalize Next
 
 - Add an academic email if you want it public.
-- Add official course titles, course codes, and semesters under the Teaching section.
 - Add exact software names and proficiency levels once confirmed publicly.
 - Add future updates by duplicating one bullet in the Academic journey or Upcoming Conferences section.
