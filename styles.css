@@ -201,13 +201,6 @@ section {
   text-underline-offset: 3px;
 }
 
-.metrics-note {
-  max-width: 74ch;
-  color: #58635f;
-  font-size: 0.86rem;
-  line-height: 1.6;
-}
-
 .news-status {
   color: var(--link-hover);
   font-size: 0.85rem;
