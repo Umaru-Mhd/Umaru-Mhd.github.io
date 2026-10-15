@@ -14,7 +14,7 @@ The theme is tuned for a concise academic profile:
 
 - Simple white background, compact top navigation, serif academic headings, and a narrow reading column.
 - Profile photo is shown prominently but modestly, similar to an academic personal page rather than a portfolio landing page.
-- Sections are intentionally brief: short biography, research interests, journal articles, conference papers, academic journey, upcoming conferences, and icon-based profile links.
+- Sections are intentionally brief: short biography, research interests, journal articles, conference papers, news, and icon-based profile links.
 - The footer preserves the requested `Powered by Beautiful Jekyll` text.
 
 ## Verified Public Sources Used
@@ -61,4 +61,20 @@ Steps:
 
 - Add an academic email if you want it public.
 - Add exact software names and proficiency levels once confirmed publicly.
-- Add future updates by duplicating one bullet in the Academic journey or Upcoming Conferences section.
+- Add future updates by duplicating a dated item in the News section (`id="news"`). Keep future events labelled Upcoming until they take place.
+
+## Journal Metrics
+
+Metrics were checked on 15 October 2026. The website uses a consistent 2024 metric year, not publication-year metrics or a claim that these are the newest available figures. Quartiles are journal/category metrics, not ratings assigned to individual papers. SJR and JCR are explicitly distinguished. IF means Clarivate Journal Impact Factor, not CiteScore, SJR, or citations per document.
+
+| Journal | 2024 quartile shown | 2024 JIF | Sources |
+| --- | --- | --- | --- |
+| Computers and Electrical Engineering | SJR Q1, Control and Systems Engineering | 4.9 | [SCImago](https://www.scimagojr.com/journalrank.php?category=2207&ord=desc&order=item&page=2&total_size=519), [SKKU journal announcement](https://ics.skku.edu/factory/news.do?articleNo=206795&mode=view), [publisher](https://www.sciencedirect.com/journal/computers-and-electrical-engineering/vol/69/suppl/C) |
+| Results in Engineering | SJR Q1, Engineering (miscellaneous) | 7.9 | [SCImago](https://www.scimagojr.com/journalrank.php/journalrank.php?country=Western+Europe&ord=desc&order=tc&page=17&total_size=13219), [SKKU announcement with metric year](https://skb.skku.edu/factory/news.do?articleNo=218626&mode=view), [publisher announcement](https://www.sciencedirect.com/journal/results-in-engineering/about/news/congratulations-to-prof-suresh-c-pillai-on-his-election-to-the-royal-irish-academy) |
+| Civil Engineering and Architecture | SJR Q2, Architecture (Civil and Structural Engineering is Q4) | Not verified | [Annual journal/category table](https://researchcloud.net/journal/2332-1091); secondary-source verification, no Clarivate JIF asserted |
+| Urbanism. Architecture. Constructions | Not verified | Not verified | No dated primary-source quartile/JIF was verified; do not substitute a citation-rate metric |
+| Renewable and Sustainable Energy Reviews | SJR Q1, Renewable Energy, Sustainability and the Environment | 16.3 | [SCImago](https://www.scimagojr.com/journalrank.php?min=3&min_type=cd&ord=desc&order=item&page=26&total_size=7579&type=j), [publisher](https://www.sciencedirect.com/journal/renewable-and-sustainable-energy-reviews), [2024 JIF year table](https://www.bioxbio.com/journal/RENEW-SUST-ENERG-REV) |
+| Energy and Buildings | SJR Q1, Building and Construction | 7.1 | [SCImago](https://www.scimagojr.com/journalrank.php?country=NL&min=2&min_type=cd&ord=desc&order=h&page=2&total_size=2037), [UPM annual metrics](https://upm.scimarina.org/cat/ipublic/source/9592) |
+| Sustainability | JCR Q2, Environmental Studies | 3.3 | [Publisher journal page](https://www.mdpi.com/journal/sustainability) |
+
+Conference proceedings have no journal JIF labels. To update metrics, verify the year, database, and subject category together, then update the visible entry and this table.

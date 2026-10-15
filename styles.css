@@ -168,6 +168,7 @@ p {
 
 section {
   margin-top: 1.7rem;
+  scroll-margin-top: 110px;
 }
 
 .paper-list,
@@ -184,6 +185,33 @@ section {
 
 .paper-list em {
   color: #555f5d;
+}
+
+.journal-metrics {
+  display: block;
+  margin-top: 3px;
+  color: #58635f;
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+.journal-metrics a {
+  text-decoration: underline;
+  text-decoration-color: #b9cdc6;
+  text-underline-offset: 3px;
+}
+
+.metrics-note {
+  max-width: 74ch;
+  color: #58635f;
+  font-size: 0.86rem;
+  line-height: 1.6;
+}
+
+.news-status {
+  color: var(--link-hover);
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 .icon-links {
